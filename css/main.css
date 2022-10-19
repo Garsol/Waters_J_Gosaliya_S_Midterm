@@ -1,6 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: Gray;
+}
+
 section {
-    width: 45%;
-    background-color: grey;
-    float: left;
+    width: 42%;
     margin: 2%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.lie_good {
+    background-color: Black;
+    color: rgb(254, 240, 255);
+    float: left;
+}
+
+.lie_bad {
+    float:right;
+    background-color: White;
+    color: rgb(0, 0, 0);
 }
